@@ -1,0 +1,67 @@
+# Normalize line endings for cross-platform collaborators
+* text=auto eol=lf
+
+# C# source and project metadata
+*.cs text diff=csharp
+*.asmdef text
+*.asmref text
+*.rsp text
+*.cginc text
+*.hlsl text
+*.shader text
+*.compute text
+
+# Unity YAML-based assets (text merge for Smart Merge / UnityYAMLMerge)
+*.meta text eol=lf
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.mat text merge=unityyamlmerge eol=lf
+*.anim text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+*.overrideController text merge=unityyamlmerge eol=lf
+*.playable text merge=unityyamlmerge eol=lf
+*.renderTexture text merge=unityyamlmerge eol=lf
+*.spriteatlas text merge=unityyamlmerge eol=lf
+*.shadervariants text merge=unityyamlmerge eol=lf
+*.terrainlayer text merge=unityyamlmerge eol=lf
+*.physicMaterial text merge=unityyamlmerge eol=lf
+*.physicsMaterial2D text merge=unityyamlmerge eol=lf
+*.guiskin text merge=unityyamlmerge eol=lf
+*.mask text merge=unityyamlmerge eol=lf
+*.vfx text merge=unityyamlmerge eol=lf
+*.vfxoperator text merge=unityyamlmerge eol=lf
+*.vfxblock text merge=unityyamlmerge eol=lf
+*.shadergraph text merge=unityyamlmerge eol=lf
+*.shadersubgraph text merge=unityyamlmerge eol=lf
+
+# Keep common game binaries treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.hdr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.aif binary
+*.aiff binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.fbx binary
+*.blend binary
+*.obj binary
+*.dll binary
+
+# Git LFS recommendations for large source assets
+*.psb filter=lfs diff=lfs merge=lfs -text
+*.blend1 filter=lfs diff=lfs merge=lfs -text
+*.max filter=lfs diff=lfs merge=lfs -text
+*.c4d filter=lfs diff=lfs merge=lfs -text
+*.mb filter=lfs diff=lfs merge=lfs -text
+*.ma filter=lfs diff=lfs merge=lfs -text
