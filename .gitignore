@@ -1,0 +1,54 @@
+# This .gitignore should be placed at root of the Unity project directory.
+#
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Uu]serSettings/
+
+# Asset import pipeline cache
+[Aa]ssets/AssetStoreTools*
+
+# IDE and editor files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity package manager temporary files
+[Pp]ackages/packages-lock.json.meta
+[Pp]ackages/packages-lock.json.tmp
+
+# Crash reports
+sysinfo.txt
+
+# Addressables and generated build data
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/BuildLayoutReport.*
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Auto-generated visual scripting files (if used)
+[Aa]ssets/Unity.VisualScripting.Generated/
+
+# Preserve collaboration-critical Unity package declarations
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
